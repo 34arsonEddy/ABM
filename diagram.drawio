@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-11T10:34:36.479Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="TfSjmYSVvYXX52DHWxGU" version="24.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-11T10:38:22.393Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="bOFZsMAUf-jOOSerjOke" version="24.2.3" type="github">
   <diagram name="Page-1" id="To_WKi0wBeNnT8M4Q_xU">
     <mxGraphModel dx="857" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -235,6 +235,28 @@
         </mxCell>
         <mxCell id="5zQEL3-AlIMP_efy4K31-188" value="&amp;nbsp;-&amp;nbsp;status_credit: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5zQEL3-AlIMP_efy4K31-187">
           <mxGeometry y="26" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5zQEL3-AlIMP_efy4K31-191" value="Qualification" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="191" width="170" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="5zQEL3-AlIMP_efy4K31-192" value="&amp;nbsp;- nom: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5zQEL3-AlIMP_efy4K31-191">
+          <mxGeometry y="26" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5zQEL3-AlIMP_efy4K31-195" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="5zQEL3-AlIMP_efy4K31-183" target="5zQEL3-AlIMP_efy4K31-191">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="290" as="sourcePoint" />
+            <mxPoint x="896" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5zQEL3-AlIMP_efy4K31-196" value="1..*" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="5zQEL3-AlIMP_efy4K31-195">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5zQEL3-AlIMP_efy4K31-197" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="5zQEL3-AlIMP_efy4K31-195">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="-5" y="17" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
