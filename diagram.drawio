@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-15T17:09:31.666Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="e5aykR6Fz3V16wDSghYY" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-16T10:04:06.751Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="g-WI5LdZjFmJMdLXt-DP" version="24.2.5" type="github">
   <diagram name="Page-1" id="To_WKi0wBeNnT8M4Q_xU">
-    <mxGraphModel dx="943" dy="1970" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="943" dy="1916" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -114,7 +114,9 @@
           <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5zQEL3-AlIMP_efy4K31-137" value="1..*" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" parent="5zQEL3-AlIMP_efy4K31-135" connectable="0" vertex="1">
-          <mxGeometry x="1" relative="1" as="geometry" />
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="-10" y="-4" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="5zQEL3-AlIMP_efy4K31-138" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;" parent="1" source="5zQEL3-AlIMP_efy4K31-90" target="5zQEL3-AlIMP_efy4K31-96" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -311,7 +313,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5zQEL3-AlIMP_efy4K31-183" value="Historique" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="840" y="347" width="170" height="104" as="geometry" />
+          <mxGeometry x="770" y="410" width="170" height="104" as="geometry" />
         </mxCell>
         <mxCell id="5zQEL3-AlIMP_efy4K31-184" value="&amp;nbsp;- commentaire: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="5zQEL3-AlIMP_efy4K31-183" vertex="1">
           <mxGeometry y="26" width="170" height="26" as="geometry" />
@@ -323,7 +325,7 @@
           <mxGeometry y="78" width="170" height="26" as="geometry" />
         </mxCell>
         <mxCell id="5zQEL3-AlIMP_efy4K31-187" value="Traiter" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="840" y="540" width="170" height="52" as="geometry" />
+          <mxGeometry x="770" y="550" width="170" height="52" as="geometry" />
         </mxCell>
         <mxCell id="5zQEL3-AlIMP_efy4K31-188" value="&amp;nbsp;-&amp;nbsp;status_credit: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="5zQEL3-AlIMP_efy4K31-187" vertex="1">
           <mxGeometry y="26" width="170" height="26" as="geometry" />
