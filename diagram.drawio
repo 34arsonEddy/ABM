@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.8.3">
   <diagram name="Page-1" id="To_WKi0wBeNnT8M4Q_xU">
-    <mxGraphModel dx="794" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1252" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -495,6 +495,41 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="OTfQX0fTykm6ZL55oZUq-29" value="&lt;div&gt;1&lt;/div&gt;" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="OTfQX0fTykm6ZL55oZUq-27">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OTfQX0fTykm6ZL55oZUq-30" value="&lt;div&gt;reseau_sociaux&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="476" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="OTfQX0fTykm6ZL55oZUq-31" value="&amp;nbsp;- facebook: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="OTfQX0fTykm6ZL55oZUq-30">
+          <mxGeometry y="26" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OTfQX0fTykm6ZL55oZUq-32" value="&amp;nbsp;- whatsapp: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="OTfQX0fTykm6ZL55oZUq-30">
+          <mxGeometry y="52" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OTfQX0fTykm6ZL55oZUq-33" value="&lt;div&gt;&amp;nbsp;- instagram: String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="OTfQX0fTykm6ZL55oZUq-30">
+          <mxGeometry y="78" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OTfQX0fTykm6ZL55oZUq-34" value="&lt;div&gt;&amp;nbsp;- telegram: String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="OTfQX0fTykm6ZL55oZUq-30">
+          <mxGeometry y="104" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OTfQX0fTykm6ZL55oZUq-35" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" parent="1" source="OTfQX0fTykm6ZL55oZUq-30" target="5zQEL3-AlIMP_efy4K31-76">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="422" as="sourcePoint" />
+            <mxPoint x="450" y="422" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="510" />
+              <mxPoint x="260" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OTfQX0fTykm6ZL55oZUq-36" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="OTfQX0fTykm6ZL55oZUq-35">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="10" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OTfQX0fTykm6ZL55oZUq-37" value="&lt;div&gt;1&lt;/div&gt;" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="OTfQX0fTykm6ZL55oZUq-35">
           <mxGeometry x="1" relative="1" as="geometry">
             <mxPoint x="-10" as="offset" />
           </mxGeometry>
