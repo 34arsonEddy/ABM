@@ -817,7 +817,7 @@
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iDPAtJ8f5cirBGczSnXv-424" value="eligibilité" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;rounded=1;arcSize=50;" parent="1" vertex="1">
+        <mxCell id="iDPAtJ8f5cirBGczSnXv-424" value="CLIENT_PRODUIT" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;rounded=1;arcSize=50;" parent="1" vertex="1">
           <mxGeometry x="760" y="180" width="190" height="420" as="geometry" />
         </mxCell>
         <mxCell id="iDPAtJ8f5cirBGczSnXv-425" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="iDPAtJ8f5cirBGczSnXv-424" vertex="1">
@@ -1400,7 +1400,7 @@
             <mxPoint y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iDPAtJ8f5cirBGczSnXv-618" value="agence_utilisateur" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;rounded=1;arcSize=50;" parent="1" vertex="1">
+        <mxCell id="iDPAtJ8f5cirBGczSnXv-618" value="AGENCE_UTILISATEUR" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;rounded=1;arcSize=50;" parent="1" vertex="1">
           <mxGeometry x="210" y="1040" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="iDPAtJ8f5cirBGczSnXv-622" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="iDPAtJ8f5cirBGczSnXv-618" vertex="1">
